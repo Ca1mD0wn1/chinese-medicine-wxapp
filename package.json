@@ -7,7 +7,8 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "@vant/weapp": "^1.10.14"
+    "@vant/weapp": "^1.10.14",
+    "wxapp-el-ui": "^0.0.6"
   },
   "devDependencies": {
     "miniprogram-api-typings": "^3.9.0"
