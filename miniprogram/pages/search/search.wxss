@@ -1,0 +1,18 @@
+/* pages/search/search.wxss */
+.search {
+  display: flex;
+  justify-content:space-between;
+  vertical-align:text-bottom
+}
+
+.search-input {
+width: 95%;
+}
+.search-button{
+  color: white;
+  background: red;
+  margin-top: 8px;
+  font-size: 12px;
+  height: 34px;
+  width: 15%;
+}

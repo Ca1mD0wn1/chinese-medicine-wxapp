@@ -1,0 +1,22 @@
+<!--pages/detail/detail.wxml-->
+<view>
+  药材名：{{medicine_data.name}}
+</view>
+<view>
+  药材数量：{{medicine_data.medicine_number}}
+</view>
+<view>
+  最后进货时间：{{medicine_data.last_data}}
+</view>
+<view>
+  进价：{{medicine_data.buy_price}}
+</view>
+<view>
+  售价：{{medicine_data.sale_price}}
+</view>
+
+<view wx:for="{{operate_id}}" wx:key="item">
+  <view>
+    {{operate_mouth[index]}}月 ： {{operate_detail[index].data.data[0].operate_detail}}
+  </view>
+</view>

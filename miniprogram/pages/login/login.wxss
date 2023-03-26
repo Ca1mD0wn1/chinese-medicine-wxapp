@@ -1,0 +1,4 @@
+/* pages/login/login.wxss */
+.loginButton{
+  padding: 25px;
+}

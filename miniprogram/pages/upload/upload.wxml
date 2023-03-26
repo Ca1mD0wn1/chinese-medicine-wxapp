@@ -1,0 +1,9 @@
+<!--pages/upload/upload.wxml-->
+<van-cell-group>
+  <van-field
+    model:value="{{ medicine_data.name }}"
+    placeholder="请输入用户名"
+    border="{{ false }}"
+    bind:change="onChange"
+  />
+</van-cell-group>
