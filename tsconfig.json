@@ -17,13 +17,13 @@
     "strict": true,
     "strictPropertyInitialization": true,
     "lib": ["ES6"],
-    "baseUrl": ".",
-    "types": ["miniprogram-api-typings"],
+    // "baseUrl": ".",
+    // "types": ["miniprogram-api-typings"],
     "paths": {
       "@vant/weapp/*": ["./node_modules/@vant/weapp/dist/*"]
     },
     "typeRoots": [
-      "./typings"
+      "./node_modules/miniprogram-api-typings"
     ]
   },
   "include": [
